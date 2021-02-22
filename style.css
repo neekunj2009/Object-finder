@@ -1,0 +1,66 @@
+body
+{
+background-position: center;
+background-size: cover;
+color: lime;
+background-color: black;
+animation-name:animation;
+animation-duration: 6s;
+animation-delay: 5;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+color: lime;
+background-color: black;
+animation-name:animation;
+animation-duration: 6s;
+animation-delay: 5;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+
+#status , #number_of_objects
+{
+font-size: 18px;
+color: lime;
+background-color: black;
+animation-name:animation;
+animation-duration: 6s;
+animation-delay: 5;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+
+canvas
+{
+box-shadow: 5px 5px 5px lightgrey;
+border-radius: 10px;
+margin-top: 180px;
+color: lime;
+background-color: black;
+animation-name:animation;
+animation-duration: 6s;
+animation-delay: 5;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+@keyframes  animation{
+    0%{background-color: blue;}
+    10%{box-shadow: 5px 5px 5px red;}
+    20%{background-color: cyan;}
+    30%{box-shadow: 5px 5px 5px yellow;}
+    40%{background-color: black;}
+    50%{box-shadow: lime;}
+    60%{font-size: 24px;}
+    70%{font-style: italic;}
+    80%{font-weight: bold}
+    90%{font-style: oblique;}
+    100%{font-weight: bolder;}
+}            
+
